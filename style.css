@@ -1,0 +1,77 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: whitesmoke;
+  color: navy;
+}
+
+h1 {
+  font-style: italic;
+  color: salmon;
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: pink;
+}
+#button1:active, #button1.lit{
+    background-image: url('https://cdn.glitch.com/5d1ddce5-247e-4238-a93c-9831aec5f060%2F1.jpeg?v=1616079885871');
+    background-size: cover;
+}
+
+#button2 {
+    background: #ffb347;
+}
+#button2:active, #button2.lit {
+    background-image: url('https://cdn.glitch.com/5d1ddce5-247e-4238-a93c-9831aec5f060%2F2.jpeg?v=1616079885871');
+    background-size: cover;
+}
+
+#button3 {
+    background: lightyellow;
+}
+#button3:active, #button3.lit {
+    background-image: url('https://cdn.glitch.com/5d1ddce5-247e-4238-a93c-9831aec5f060%2F3.png?v=1616079885931');
+    background-size: cover;
+}
+
+#button4 {
+    background: lightgreen;
+}
+#button4:active, #button4.lit {
+    background-image: url('https://cdn.glitch.com/5d1ddce5-247e-4238-a93c-9831aec5f060%2F4.png?v=1616079886036');
+    background-size: cover;
+}
+
+#button5 {
+    background: lightblue;
+}
+#button5:active, #button5.lit {
+    background-image: url('https://cdn.glitch.com/5d1ddce5-247e-4238-a93c-9831aec5f060%2F5.jpeg?v=1616079885958');
+    background-size: cover;
+}
+
+#button6 {
+    background: purple;
+}
+#button6:active, #button6.lit {
+    background-image: url('https://cdn.glitch.com/5d1ddce5-247e-4238-a93c-9831aec5f060%2F6.png?v=1616079885871');
+    background-size: cover;
+}

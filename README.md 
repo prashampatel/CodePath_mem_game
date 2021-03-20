@@ -1,0 +1,80 @@
+# Pre-work - *Memory Game*
+
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+
+Submitted by: Prasham Patel
+
+Time spent: **5-6** hours spent in total
+
+Link to project: (insert your link here, should start with https://glitch.com...)
+
+## Required Functionality
+
+The following **required** functionality is complete:
+
+* [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
+
+The following **optional** features are implemented:
+
+* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
+* [x] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
+* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [x] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [ ] User has a limited amount of time to enter their guess on each turn
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+![]![](https://i.imgur.com/6QVCEEt.gif)
+
+
+
+## Reflection Questions
+1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+W3schools and Stack Overflow
+
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+One of the main challenges I faced was making a random pattern upon each game start. Js does not have a truly random number generator and with the one that is does have,
+it olnly chooses between numbers 0 through 1. To overcome this, I used a for loop to build the patttern array up to 7 indexes and used Math.Random to generate a number in the desried range,
+then populated the pattern array for the game to play from. 
+
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+How can I now develop a backend with a database system to hold user scores and display highest scorers. Also, I tried to play with the playback speed but it essentially broke my game, so
+I'd like to also learn how to implement that. 
+
+4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+If I had additional time to complete this project, I would explore css and js animations to make the webpage cooler and more dynamic. I have always been interested in dynamicness and reactivity.
+Allowing a user to interact with a page is one thing, but sending back reactions is a whole other story. For example on our phones we have haptic feedback and vibrations,
+however on a laptop or pc we are not able to make these reactions, therefore by using css and js tricks we can increase dynamicness and interactiveness. 
+
+
+
+## License
+
+    Copyright Prasham Patel
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
